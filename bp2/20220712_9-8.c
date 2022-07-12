@@ -5,7 +5,7 @@ void put_stringr(const char s[]){
     int j = 0;
     while(s[i])
         i++;
-    for(int j = i-1; i >= 0; i--){
+    for(j = i-1; i >= 0; i--){
         printf("%c", s[i]);
     }
 }

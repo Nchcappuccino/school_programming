@@ -3,7 +3,7 @@
 void del_digit(char s[]){
     int i = 0;
     char temp[128];
-    for(int i = 0; i < 128+1; i++){
+    for(i = 0; i < 128+1; i++){
         temp[i] = '\0';
     }
     int size = 0;
